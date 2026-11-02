@@ -33,3 +33,28 @@ Produce `11.1-11.9_{site name}_sitemap_audit_{YYYY-MM-DD}.xlsx` for a supplied s
 - Preserve the filename, date/timezone and language rules in the output contract. Save reports/raw evidence in a unique run directory, never overwrite a prior run and never commit customer evidence.
 - No website/configuration repair, GSC submission, automatic crawling, recurring monitoring, or external messaging is authorized by invoking this audit.
 - Optional context: [background summary](references/xml-sitemap-background.md) preserves the supplied screenshot and official SEO distinctions. It is not an additional mandatory checklist.
+
+## Excel output language
+
+Write all generated Excel report narratives, analyses, findings, recommendations,
+report titles, worksheet names, table headers, chart labels and notes in English,
+regardless of the input or conversation language.
+
+Preserve original source evidence exactly, including Chinese keywords, page
+titles, descriptions, headings, quoted page content, URLs and paths. Chinese
+text in source-evidence fields is permitted. Do not translate, remove or rewrite
+evidence merely to make a workbook appear English-only. Use English for the
+generated explanations surrounding that evidence.
+
+Set report-generation language to English. If a reused configuration specifies
+Chinese, use an English run-specific setting without modifying the original
+input configuration. Prepare narrative fields in English before rendering.
+
+Before delivery, reopen every Excel workbook and inspect generated narrative
+and presentation fields for Chinese text; correct those fields and regenerate
+when needed. Inspect source-evidence fields separately and preserve their text.
+Do not apply a blanket Chinese-character removal or replacement to a workbook.
+Preserve audit logic, thresholds, result codes, evidence provenance and
+machine-readable field keys. This rule governs Excel deliverables and the
+narrative inputs used to build them; it does not require English chat replies
+or translation of internal documentation.
